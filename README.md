@@ -1,7 +1,7 @@
 # Features:
-ReactJS : React + JS + Redux + antd + vite
-ReactTS : React + TS + Redux + antd + vite
-ExpressJS : Express + cors + nodemon
+ReactJS : React + JS + Redux + antd + vite  
+ReactTS : React + TS + Redux + antd + vite  
+ExpressJS : Express + cors + nodemon  
 ExpressTs : Express + cors + ts-node-dev
 
 

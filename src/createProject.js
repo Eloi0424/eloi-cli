@@ -5,7 +5,7 @@ const download = require('download-git-repo');
 async function createProject(projectName, parameter) {
   const spinner = (await import('ora')).default("Downloading").start();
   try {
-    await downloadTemplate(projectName,parameter);
+    await downloadTemplate(projectName, parameter);
     spinner.succeed('Template downloaded.');
 
     // spinner.info('Customizing template...');
@@ -20,9 +20,9 @@ async function createProject(projectName, parameter) {
 
 function downloadTemplate(projectName, parameter) {
   return new Promise((resolve, reject) => {
-    download(`eloi0424/${parameter.framework_type}-JS-Template`, projectName, error => {
+    download(`eloi0424/${parameter.framework_type}-${parameter.language_type}-Template`, projectName, error => {
       if (error) {
-        console.log(parameter.framework_type)
+        // console.log(parameter.framework_type,parameter.language_type)
         reject(error);
       } else {
         resolve();

@@ -1,6 +1,6 @@
 {
   "name": "eloi-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cli for eloi",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,6 @@
   },
   "bin": {
     "eloi-cli": "bin/bin.js"
-  }
+  },
+  "keywords": ["Template","React","Vue","Express","JS","TS"]
 }
